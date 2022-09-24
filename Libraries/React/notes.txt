@@ -1,0 +1,30 @@
+STATIC VS DINAMYC CONTENT
+	- Static content are files that the server transfers just as they are stored on the web server, img, videos
+	- Dinamyc content is generated when the http request is made 
+	the web server communicates with an application server
+		- An application server has to 
+			* Run the application logic
+			* Communicate with the database
+			* Check for permission
+
+		- Web servers uses a process called 'caching'
+			the web server keeps a copy of the dinamyc content
+
+SIMPLE PAGE APPLICATIONS
+	The different approaches of SPA's are
+		- Bundling
+		- Lazy loading
+	
+	SPA's have two main methods to deliver resources
+		- Deliver all resources immediately
+		- Deliver resources dynamically as required
+
+WHAT IS REACT?
+	- React allows to define components that we can combine to build a web application
+		* A component is a small piece of user interface
+			This allows us to isolate development, isolate testing and re-use components
+
+React updates the virtual DOM and compares it to the previous version of the virtual DOM. If a change has occurd, only that element is updated in the browser DOM. Changes on the browser DOM cause the displayed webpage to change
+
+COMPONENT HIERARCHY
+	Every react application has at least one component, called the root
